@@ -11,9 +11,11 @@ Project description
 5) Run php bin/console doctrine:schema:create
 6) Serve /web dir with any web-server like: php -S 0.0.0.0:8001
 7) To run tests suite
-8) Run php bin/console doctrine:database:create --env=test
-9) Run php bin/console doctrine:schema:create --env=test
-10) Run vendor/bin/simple-phpunit
+<ul>
+<li>Run php bin/console doctrine:database:create --env=test</li>
+<li>Run php bin/console doctrine:schema:create --env=test</li>
+<li>Run vendor/bin/simple-phpunit</li>
+</ul>
 
 ### API ###
 
