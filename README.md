@@ -11,14 +11,14 @@ Project description
 5) Run php bin/console doctrine:schema:create
 6) Serve /web dir with any web-server like: php -S 0.0.0.0:8001
 7) To run tests suite
-7.1) Run php bin/console doctrine:database:create --env=test
-7.2) Run php bin/console doctrine:schema:create --env=test
-7.3) Run vendor/bin/simple-phpunit
+8) Run php bin/console doctrine:database:create --env=test
+9) Run php bin/console doctrine:schema:create --env=test
+10) Run vendor/bin/simple-phpunit
 
 ### API ###
 
-[POST] /ticket
-Parameters:
+<div>[POST] /ticket</div>
+<div>Parameters:</div>
     departureTime: string, // "01-01-2023 00:00:00"
     sourceAirport: string, // "Source Airport"
     destAirport: string, // "Destination Airport",
