@@ -1,0 +1,7 @@
+services:
+# Commands
+    ntech_core.command.test:
+        class: Ntech\CoreBundle\Command\TestCommand
+        arguments: ['@service_container']
+        tags:
+            -  { name: console.command }

@@ -1,0 +1,21 @@
+Ntech\CoreBundle\Entity\Ticket:
+   type: entity
+   table: ticket
+   repositoryClass: Ntech\CoreBundle\Repository\TicketRepository
+   id:
+      id:
+         type: integer
+         generator: { strategy: AUTO }
+   fields:
+      departureTime:
+         type: datetime
+      sourceAirport:
+         type: string
+         length: 255
+      destAirport:
+         type: string
+         length: 255
+      seat:
+         type: integer
+      passportId:
+         type: string

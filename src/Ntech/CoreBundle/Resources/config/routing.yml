@@ -1,0 +1,14 @@
+create_ticket:
+    path: /ticket 
+    defaults: { _controller: NtechCoreBundle:Ticket:create }
+    methods: [POST]
+
+cancel_ticket:
+    path: /ticket 
+    defaults: { _controller: NtechCoreBundle:Ticket:cancel }
+    methods: [DELETE]
+
+change_seat:
+    path: /ticket/changeseat 
+    defaults: { _controller: NtechCoreBundle:Ticket:changeSeat }
+    methods: [POST]

@@ -1,0 +1,12 @@
+ntech_core:
+    resource: "@NtechCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# view_account_by_slug:
+#     path: /{slug}
+#     defaults:
+#         _controller: NtechClientBundle:Account:viewAccountBySlug
+#     requirements:
+#         slug: ".+"
+#     options:
+#         expose: true
