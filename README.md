@@ -19,15 +19,21 @@ Project description
 
 <div>[POST] /ticket</div>
 <div>Parameters:</div>
-    departureTime: string, // "01-01-2023 00:00:00"
-    sourceAirport: string, // "Source Airport"
-    destAirport: string, // "Destination Airport",
-    seat: string, // "20"  
-    passportId: string // "passportId2414"
-[DELETE] /ticket
-Parameters:
-    ticketId: string, // "166"
-[POST] /ticket/changeseat 
-Parameters:
-    ticketId: string, // "166"
-    seat: string // "16"
+    <ul>
+    <li>departureTime: string, // "01-01-2023 00:00:00"</li>
+    <li>sourceAirport: string, // "Source Airport"</li>
+    <li>destAirport: string, // "Destination Airport",</li>
+    <li>seat: string, // "20"</li>
+    <li>passportId: string // "passportId2414"</li>
+    </ul>
+<div>[DELETE] /ticket</div>
+<div>Parameters:</div>
+    <ul>
+    <li>ticketId: string, // "166"</li>
+    </ul>
+<div>[POST] /ticket/changeseat </div>
+<div>Parameters:</div>
+    <ul>
+    <li>ticketId: string, // "166"</li>
+    <li>seat: string // "16"</li>
+    </ul>
